@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.subversivestudio.movie3.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/most_popular"
+        android:title="Most Popular"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/highest_rated"
+        android:title="Highest Rated"
+        app:showAsAction="always" />
+
+</menu>
